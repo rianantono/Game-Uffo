@@ -1,0 +1,29 @@
+﻿  Main.cpp
+D:\Projrct Game\3\uffo\uffo\Main.cpp(288,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(681,68): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(708): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const int&,int,int&,int&>(_Alloc &,_Objty *const ,const int &,int &&,int &,int &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Pipe>,
+              _Ty=Pipe,
+              _Objty=Pipe
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(713): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const int&,int,int&,int&>(_Alloc &,_Objty *const ,const int &,int &&,int &,int &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Pipe>,
+              _Ty=Pipe,
+              _Objty=Pipe
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(726): message : see reference to function template instantiation 'void std::vector<Pipe,std::allocator<Pipe>>::_Emplace_back_with_unused_capacity<const int&,_Ty,int&,int&>(const int &,_Ty &&,int &,int &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+D:\Projrct Game\3\uffo\uffo\Main.cpp(191): message : see reference to function template instantiation 'void std::vector<Pipe,std::allocator<Pipe>>::emplace_back<const int&,int,int&,int&>(const int &,int &&,int &,int &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(681,68): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  uffo.vcxproj -> D:\Projrct Game\3\uffo\x64\Debug\uffo.exe
